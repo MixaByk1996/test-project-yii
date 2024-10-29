@@ -13,7 +13,7 @@ use yii\rest\Controller;
 use yii\web\BadRequestHttpException;
 use yii\web\UnauthorizedHttpException;
 
-class UserController extends Controller
+class UsersController extends Controller
 {
     public function actionLogin()
     {
